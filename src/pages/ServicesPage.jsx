@@ -1,15 +1,13 @@
 import HomePageHeader from "../components/HomePageHeader";
-import HomePageContent from "../components/HomePageContent";
 import HomePageFooter from "../components/HomePageFooter";
 
-const HomePage = () => {
+const ServicesPage = () => {
   return (
     <>
       <HomePageHeader />
-      <HomePageContent />
+      <div>Service Page Content</div>
       <HomePageFooter />
     </>
   );
 };
-
-export default HomePage;
+export default ServicesPage;

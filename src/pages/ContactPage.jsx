@@ -1,15 +1,13 @@
 import HomePageHeader from "../components/HomePageHeader";
-import HomePageContent from "../components/HomePageContent";
 import HomePageFooter from "../components/HomePageFooter";
 
-const HomePage = () => {
+const ContactPage = () => {
   return (
     <>
       <HomePageHeader />
-      <HomePageContent />
+      <div>Contact Page Content</div>
       <HomePageFooter />
     </>
   );
 };
-
-export default HomePage;
+export default ContactPage;
